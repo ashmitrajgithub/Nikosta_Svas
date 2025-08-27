@@ -113,20 +113,7 @@ export function AboutSection() {
           </div>
         </div>
 
-        <div className="text-center bg-white rounded-3xl p-12 shadow-lg border border-gray-100">
-          <div className="w-20 h-20 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-full flex items-center justify-center mx-auto mb-6">
-            <Heart className="w-10 h-10 text-white" />
-          </div>
-          <h3 className="text-4xl font-bold text-gray-900 mb-4">Ready to Begin Your Transformation?</h3>
-          <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">
-            Join our community and embark on your transformative journey today. Experience the difference that mindful
-            wellness can make.
-          </p>
-          <button className="bg-gradient-to-r from-emerald-600 to-teal-600 text-white px-10 py-4 rounded-2xl font-semibold text-lg hover:from-emerald-700 hover:to-teal-700 transition-all duration-300 flex items-center justify-center mx-auto shadow-lg hover:shadow-xl transform hover:-translate-y-1">
-            Begin Your Journey
-            <ArrowRight className="w-6 h-6 ml-3" />
-          </button>
-        </div>
+       
       </div>
     </section>
   )
